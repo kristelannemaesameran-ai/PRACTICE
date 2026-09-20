@@ -6,7 +6,7 @@ function Contact() {
       <h2>Contact Me</h2>
 
       <p>Email: kristel@example.com</p>
-      <p>GitHub: github.com/yourusername</p>
+      <p>GitHub: github.com/kristelannemaesameran-ai</p>
 
       <button>Send Message</button>
     </section>
