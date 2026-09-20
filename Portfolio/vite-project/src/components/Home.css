@@ -1,0 +1,46 @@
+.home {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 50px 8%;
+  background: linear-gradient(135deg, #ffe4ec, #e7dcff, #d9f7ff);
+}
+
+.home-text {
+  max-width: 550px;
+}
+
+.home-text p:first-child {
+  color: #ff4d8d;
+  font-weight: bold;
+}
+
+.home h1 {
+  font-size: 45px;
+  color: #333;
+}
+
+.home h3 {
+  color: #8b5cf6;
+}
+
+.profile img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid white;
+  box-shadow: 0 10px 30px #aaa;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ff4d8d;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+}
