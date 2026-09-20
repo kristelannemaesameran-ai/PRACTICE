@@ -14,7 +14,7 @@ function About() {
       <div className="info">
         <p><b>Name:</b> Kristel Anne Mae Sameran</p>
         <p><b>Course:</b> BS Information Technology</p>
-        <p><b>Interest:</b> Data Analysis and Web Development</p>
+        <p><b>Interest:</b> Software Design</p>
       </div>
     </section>
   );
