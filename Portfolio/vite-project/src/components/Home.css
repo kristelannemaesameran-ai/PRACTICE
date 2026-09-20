@@ -27,9 +27,12 @@
   margin: 10px 0;
   font-size: clamp(40px, 6vw, 70px);
   line-height: 1.1;
-  background: linear-gradient(90deg, #ff4da6, #c77dff, #8b5cf6);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: #ff4da6;
+  text-shadow:
+    0 0 5px #ff4da6,
+    0 0 10px #c77dff,
+    0 0 20px #8b5cf6,
+    0 0 30px #ff4da6;
 }
 
 .home h3 {

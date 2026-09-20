@@ -13,9 +13,12 @@
 
 .navbar h2 {
   font-size: 25px;
-  background: linear-gradient(90deg, #ff4da6, #b56cff);
-  -webkit-background-clip: text;
-  color: transparent;
+  font-weight: 700;
+  color: #ff4da6;
+  text-shadow:
+    0 0 5px #ff4da6,
+    0 0 10px #b56cff,
+    0 0 20px #8b5cf6;
 }
 
 .nav-links {
