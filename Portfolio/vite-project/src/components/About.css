@@ -1,21 +1,44 @@
 .about {
-  padding: 80px 15%;
+  padding: 100px 15%;
   text-align: center;
-  background: white;
+  background: #19002a;
 }
 
-.about h2 {
-  color: #8b5cf6;
-  font-size: 35px;
+.about h2,
+.skills h2,
+.projects h2,
+.contact h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #ff4da6, #b56cff);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-.about p {
-  line-height: 1.7;
+.about > p {
+  max-width: 750px;
+  margin: auto;
+  color: #d8c5df;
+  line-height: 1.8;
 }
 
 .info {
-  margin-top: 30px;
-  padding: 25px;
-  border-radius: 20px;
-  background: #f8f0ff;
+  max-width: 650px;
+  margin: 40px auto 0;
+  padding: 30px;
+  text-align: left;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 105, 180, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 15px 40px #00000033;
+}
+
+.info p {
+  padding: 10px 0;
+  color: #ead9f0;
+}
+
+.info b {
+  color: #ff70b7;
 }

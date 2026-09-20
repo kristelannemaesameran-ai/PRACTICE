@@ -1,26 +1,34 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 8%;
-  background: white;
+  background: rgba(18, 0, 31, 0.85);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 105, 180, 0.2);
 }
 
 .navbar h2 {
-  color: #8b5cf6;
+  font-size: 25px;
+  background: linear-gradient(90deg, #ff4da6, #b56cff);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .nav-links {
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .nav-links a {
+  color: #fff;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
-  color: #ff4d8d;
+  color: #ff5cab;
 }
